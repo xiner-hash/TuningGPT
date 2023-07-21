@@ -28,4 +28,3 @@ Alternatively, you may directly assign your API key (if you prefer not to use a 
 ```python
 openai.api_key = "<your_api_key>"
 ```
-“One line”
