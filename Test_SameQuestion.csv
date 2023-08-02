@@ -1,72 +1,119 @@
-prompt,completion,response
-What is the name of the course?,Core Methods in Educational Data Mining,"
-
-
-Describe what the course is about.
-
-
-Page 181
-
-
-"
-Could you please provide the course number?,EDUC 6191," Depending on the kind of course, the type of technology used, and other factors"
-What are the class times?,"Thursday, 9:45-11:45 am (in-person) / Tuesdays, 6:00-8:00 pm (virtual)","
-
-What are the plus-minus point restrictions?
-
-In what games"
-Who is the instructor teaching the course?,Ryan Baker,"”
-
-“What are the student-teacher ratios in this"
-What are the contact details of the instructor?,Email: rybaker@upenn.edu,"” the question that got the highest votes. The sad part is that,"
-What are the office hours for the instructor?,"Thursdays, 12:00-2:00 pm (in-person) / Mondays 6:00-7:00 am, Fridays 4:00-5:00 pm (virtual)","
-
-What software will you be using?
-
-Make sure to attend the"
-What are the specific course objectives?,"To cover core methods in educational data mining, teach execution in standard software, understand limitations, and know when and why to use these methods.","
-
-The course objectives for this course are for students to be able to successfully"
-What are the overall expectations from students?,"Watch asynchronous videos, engage with content, complete assignments, and provide feedback on peers' work.","
-
-What are the significant details and fine print around grades and attendance?
-"
-"Is there a required text? If so, what is it?","Yes, ""Big Data and Education, 7th edition"" by R.S. Baker. Available at: https://www.upenn.edu/learninganalytics/MOOT/bigdataeducation.html"," Yes, it is Golang by Example. If you understand why problems are not"
-What textbook is being used in this course?,"""Big Data and Education, 7th edition"" by R.S. Baker. Available at: https://www.upenn.edu/learninganalytics/MOOT/bigdataeducation.html"," ________________________________________________________________________________
-
-Verify the Exams and Midterm dates below!"
-What is the course prerequisite?,"Python, EDUC7667, or instructor permission. Proficiency in Python is essential","
-
-What is the corequisite?
-
-How much does this course"
-How many basic assignments are required?,Six basic assignments and three creative assignments. ," ____________
-
-
-How many elective assignments are required? ____________"
-How many creative assignments are required?,Complete three out of four assigned creative homework.," None, though you must create a portfolio of your own original creative work as an"
-What happens if I do more basic assignments?,Extra assignments will receive feedback but not be graded or replace higher graded ones.,"
-
-The basic assignments are: Log in hourly for a symbolic amount of kin"
-What happens if I do more creative assignments?,Extra assignments will receive feedback but not be graded or replace higher graded ones.," Senior editor Sean Williams tells me, ""Do at least three more of these and"
-What is required asynchronous activities?,Complete creative assignments and provide substantive comments on at least four other students' submissions within five days to count towards your grade.,"
-
-Testable Code
-
-If you’re not testing before running"
-What are the grading criteria?,"6 of 8 Basic Assignments (up to 36%), 3 of 4 Creative Assignments (up to 39%), Asynchronous participation (up to 24%), and 1 bonus point.","
-
-There aren’t any grading criteria listed at this blog.
-"
-When is the midterm?,"No, there are no exams in this course.","
-
-The midterm takes place a half hour before the start of class on the"
-When is the final exam?,"No, there are no exams in this course.","”
-
-Enhancement via dopamine
-
-I believe courses should not"
-Is there a tentative exam schedule?,"No, there are no exams in this course.","
-
-No, an exam schedule will be released in June and can be viewed"
-What is the bonus for creative assignments?,The best hand-in for each creative assignment receives a special bonus of 20%.," If none of the natural results ended up breaking the law, then isn't the"
+prompt,completion
+What is the name of the course?,Core Methods in Educational Data Mining
+Could you please provide the course number?,EDUC 6191
+How many credit hours is the course worth?,1 CU
+Where will the course be conducted?,TBD or virtual via simulcast link (TBD)
+What are the class times?,"Thursday, 9:45-11:45 am (in-person) / Tuesdays, 6:00-8:00 pm"
+Who is the instructor teaching the course?,Ryan Baker
+What are the contact details of the instructor?,Email: rybaker@upenn.edu
+Where is the instructor's office located?,TBD (in-person)
+What are the office hours for the instructor?,"Thursdays, 12:00-2:00 pm (in-person) /s 6:00-7:00 am,s 4:00-5:00 pm"
+Is there a teaching assistant for the course?,"Yes, Rachel Liu and Tanvi Gupta"
+What are the contact details of the TAs?,Rachel Liu: xiner@upenn.edu / Tanvi Gupta: guptanvi@seas.upenn.edu
+How can I contact the TAs?,You can attend the office hours or email them - Rachel Liu: xiner@upenn.edu / Tanvi Gupta: guptanvi@seas.upenn.edu
+Where is the TA's office located?,TBD (in-person)
+When are the office hours for the TA?,"Time TBD, location TBD"
+What are the specific course objectives?,"To cover core methods in educational data mining, teach execution in standard software, understand limitations, and know when and why to use these methods."
+What are the overall expectations from students?,"Watch asynchronous videos, engage with content, complete assignments, and provide feedback on peers' work."
+Where are the course readings?,Most readings are on the course schedule webpage (https://www.upenn.edu/learninganalytics/ryanbaker/EDM2023/index.html); other readings may be provided in class.
+What is the course website?,Please refer to: https://www.upenn.edu/learninganalytics/ryanbaker/EDM2023/index.html
+What is the course discussion forum?,http://educ6191-f23.jeepytee.net/
+"Is there a required text? If so, what is it?","Yes, ""Big Data and Education, 7th edition"" by R.S. Baker (available at: https://www.upenn.edu/learninganalytics/MOOT/bigdataeducation.html)"
+What textbook is being used in this course?,"""Big Data and Education, 7th edition"" by R.S. Baker (available at: https://www.upenn.edu/learninganalytics/MOOT/bigdataeducation.html)"
+"Important dates (due dates, assignments, etc.)?","For detailed information about the assignments, please visit the course webpage https://www.upenn.edu/learninganalytics/ryanbaker/EDM2023/index.html"
+What is the course prerequisite?,"Python, EDUC7667, or instructor permission. Proficiency in Python is essential"
+What is a basic assignment?,"Practice questions on Assistment platform. For any setup inquiries, please contact the TAs."
+When will I find the basic assignments?,Basic assignments are on the ASSISTments platform. You can use Google Classroom or ASSISTments directly.
+What are basic assignments like?,Basic assignments involve data mining with instant feedback and context-sensitive hints.
+What happens if I make a mistake in the basic assignment?,"Making errors in the basic assignment has no penalties, regardless of what the system says."
+What happens if I use hints in the basic assignment?,"Requesting hints in the basic assignment incurs no penalties, unless you game the system."
+How many hints can I use in the basic assignment?,"You can use all the hints without penalties, unless you game the system."
+How will you know if I game the system?,The system has a built-in detector to automatically detect instances of gaming the system.
+Can I get credit if I used all the hints for a question?,"Yes, there are no penalties for requesting hints, regardless of what the system says, unless you game the system."
+Where can I view my grade after completing assignments?,"If you complete the assignment in time, you will receive full credit."
+What should I do after finishing each creative assignment?,"After submitting your own creative assignment, post meaningfully on four other students' creative assignments. Either section is fine."
+What are the expectations for creative assignment?,"Creative assignments focus on personal discovery and learning from text and video resources, not flawless execution."
+What does it mean to post on other students' assignments?,"After submitting your own creative assignment, post meaningfully on four other students' creative assignments. Either section is fine."
+Why do I need to post on other students' assignments?,Posting on others' assignments allows you to explore alternative problem-solving approaches and benefits both you and your classmates.
+How many students' assignments do I need to post on?,You need to post meaningfully on four other students' creative assignments.
+Can I discuss my approach with a friend for the assignment?,"Yes! You can discuss different approaches, but not share step-by-step solutions."
+Can I do the assignment with a classmate but write separately?,"No, assignments are individual, but discussing readings or technical details on the forum is allowed."
+Can I discuss readings or technical details on the forum?,Yes! You can discuss readings and technical details with your classmates as long as you don't share step-by-step solutions.
+Can I ask my friend a UI question about ASSISTments?,Yes.
+What can I discuss with my classmates?,You can discuss anything except sharing step-by-step solutions to assignments.
+Can I do homework with friends together?,"No, assignments are individual, but discussing readings or technical details on the forum is allowed."
+What is the collaboration policy in class?,"All assignments are individual. You must submit your own work, but discussing readings or technical details on the forum is allowed."
+Can I get inspiration from my classmates' assignment posts?,"Not recommended, but it's not considered an ethical violation."
+Can I copy my classmates' modified dataset for any assignment?,No.
+Can we work in groups for the assignments?,"No, all assignments are individual, but discussing readings or technical details on the forum is allowed."
+How can I get in touch with Ryan?,"You can post to the forum, come to office hours, or set up a virtual meeting with penn.learninganalytics@gmail.com or rybaker@upenn.edu."
+Will you accommodate students?,Ryan tries to accommodate every student. You can talk to him during office hours or email the professor or TAs to set up a meeting.
+"I am worried about my coding skills, what should I do?",Come talk to us during office hours or email the professor or TAs to set up a meeting. Ryan tries to find a way to accommodate every student.
+What should I do if I have a technical question or a question of general interest for the class?,You are highly recommended to post it on the discussion forum.
+What happens if I submit my assignment after the deadline?,Please contact the professor and explain why your assignment is/will be late.
+What is the policy for late assignments?,"The professor intends to be more flexible than usual on extensions, but please contact the professor and explain why your assignment is/will be late."
+What is a creative assignment?,"In creative assignments, you will be given a prompt and expected to use all the knowledge learned from basic assignments to complete the project independently."
+How many assignments are required?,Six basic assignments and three creative assignments. 
+How many basic assignments are required?,Please choose 6 of them to complete: 3 from the first 4 (e.g. Basic Homework 1-4) and 3 from the second 4 (e.g. Basic Homework 5-8)
+Where do I submit the assignments?,Please submit all assignments on the discussion forum: http://educ.jeepytee.net/
+How many creative assignments are required?,Complete three out of four assigned creative homework.
+What happens if I do more basic assignments?,Extra assignments will receive feedback but not be graded or replace higher graded ones.
+What is the attendance policy for the course?,"Attendance is not mandatory, but active participation is encouraged for a better learning experience."
+What is the expected classroom behavior?,Participate actively by asking questions and contributing comments during in-person classes.
+What is required asynchronous activities?,Complete creative assignments and provide substantive comments on at least four other students' submissions within five days to count towards your grade.
+What are the grading criteria?,"6 of 8 Basic Assignments (up to 36%), 3 of 4 Creative Assignments (up to 39%), Asynchronous participation (up to 24%), and 1 bonus point."
+When is the midterm?,"No, there are no exams in this course."
+Is there a tentative exam schedule?,"No, there are no exams in this course."
+What is the bonus for creative assignments?,The best hand-in for each creative assignment receives a special bonus of 20%.
+Can AI be used for homework assistance?,"Yes, you can use any of the foundation models, but please acknowledge their use in your hand-ins."
+Can I get an extension for the assignments?,"Contact the professor for extensions, but please be reasonable."
+What is the course mask policy?,Please wear a mask during class if possible.
+What is the policy on academic dishonesty?,Plagiarism or improper citation is not tolerated and follows the university's policy on academic dishonesty.
+Is there a disability accommodation statement?,Please email Ryan to set up a meeting so we can best accommodate you.
+Is there a makeup policy for missed exams or assignments?,Extensions will be given as needed within reasonable circumstances.
+Are there any opportunities of earning extra credit?,The best hand-in for each creative assignment receives a special bonus of 20%. There are no other extra credit opportunities.
+Is there a group project?,"No, there is no group project in this course."
+When are assignments made available?,Assignments for the course are accessible from the start and can be accessed through the course webpage: https://www.upenn.edu/learninganalytics/ryanbaker/EDM2023/index.html
+Do we have a class on labor day?,"No, there's no class on Labor Day on September 4, 2023. Please refer to the academic calendar - https://almanac.upenn.edu/penn-academic-calendar"
+What is the deadline to drop this course?,Drop period for courses ends on October 9. Please refer to the academic calendar - https://almanac.upenn.edu/penn-academic-calendar
+When is the fall break?,The fall break is from October 12-15. Please refer to the academic calendar - https://almanac.upenn.edu/penn-academic-calendar
+What is the name of the Basic Assignment 1?,Basic Assignment 1: Classifier
+What is the Basic Assignment 1 due date?,"1159pm, September 18, USA Eastern time"
+What is the Creative Assignment 3 response post due date?,"1159pm, December 18, USA Eastern time"
+Where can I find the syllabus?,Please refer to: https://learninganalytics.upenn.edu/ryanbaker/EDM2023/index.html
+Where can I find the topic for each class?,Please refer to: https://learninganalytics.upenn.edu/ryanbaker/EDM2023/index.html
+What is the topic of Class 1?,Introduction
+When will the in-person section of Class 1 take place?,31-Aug
+When is the virtual section of Class 1 scheduled?,5-Sep
+Are there any assignments due before Class 1?,No
+Are there any assignments due before Class 12?,Basic: Clustering
+What is the definition of each variable in assignment dataset?,"For detailed information about the assignments, please visit the course webpage https://www.upenn.edu/learninganalytics/ryanbaker/EDM2023/index.html"
+Where is the description of each assignment?,"For detailed information about the assignments, please visit the course webpage https://www.upenn.edu/learninganalytics/ryanbaker/EDM2023/index.html"
+Which programming language should I use for each assignment?,"For detailed information about the assignments, please visit the course webpage https://www.upenn.edu/learninganalytics/ryanbaker/EDM2023/index.html"
+How can I set up a virtual meeting with Ryan?,Please email penn.learninganalytics@gmail.com
+What types of questions should I post on the discussion forum?,All questions that could be of interest to other students
+Is this a statistics class?,This is not a statistics class but EDM methods will be compared to statistics throughout the class.
+How many sections does this class have?,This class has 2 sections.
+Which section should I attend?,"You can attend either of the two sections, it is up to you."
+How can I join the Google classroom?,Please see https://learninganalytics.upenn.edu/ryanbaker/EDM2023/assignments.html
+How can I join the ASSISTments classroom?,Please see https://learninganalytics.upenn.edu/ryanbaker/EDM2023/assignments.html
+What is the class code to join Google Classroom?,23qujvq
+Will there be a tutorial on statistics?,"Yes, Ryan will offer a special session: An Inappropriately Brief Introduction to Frequentist Statistics"
+When is the special statistics session?,Ryan will post a poll to schedule this on the discussion forum
+What should I do if I have questions?,"You could post to the discussion forum, come to the offcie hours, or contact us."
+What is Jeepytee?,Jeepytee is a LLM-powered TA. It is not just basic GPT-4; we have done some pre-training.
+What can Jeepytee do? ,Jeepytee will answer some of your questions when Ryan and the TAs aren't available.
+What should I do if I have not signed up for this course?,"If you would like to enroll, please email Ryan."
+Will the class schedule change? ,Only if any schedule changes happen due to unforeseen circumstances. Online schedule will be kept up-to-date
+Where can I find Jeepytee?,Jeepytee can be found on the course discussion forum at http://educ6191-f23.jeepytee.net/.
+Will there be any research involving Jeepytee?,"Yes! Ryan and colleagues will be conducting a study on Jeepytee, which they will invite you to join"
+What is the purpose of the course discussion forum?,Key communication tool for this class
+What can I do on the discussion forum? ,"Hand in assignments, comment on other students' assignments, and dicuss the readings and videos"
+"If I missed the class, will I lose my participation grade?","No, but you might lose your participation grade unless you contact the professor and explain why you missed the class."
+"Are there any required software or tools for the course, and how can I obtain them?",Please reach out to the Teaching Assistants (TAs) for personalized help at any time
+"Are there any study resources, such as practice problems or sample exams, available?",Please reach out to the Teaching Assistants (TAs) for personalized help at any time
+Can I get clarification on the course objectives and learning outcomes?,"To cover core methods in educational data mining, teach execution in standard software, understand limitations, and know when and why to use these methods."
+How can I access the recorded lectures if I miss a class?,"Course recordings will not be available, but you are welcome to attend the other section."
+What programming language do I need to know for Basic Assignments?,Python
+Can I get assistance with setting up and using course-related software or tools?,Sure! Please reach out to the Teaching Assistants (TAs) for personalized help at any time
+What is gaming the system?,Exploiting rules or loopholes to achieve an advantage or desired outcome.
