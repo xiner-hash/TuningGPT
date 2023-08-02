@@ -14,17 +14,34 @@ Fine-tuning conditional Ggnerations is the process of adapting a pre-trained lan
  
 ### Code to submit
 The code that reads prompts and completions from .csv and creates a fine-tuning job can be found in the TuningGPT.ipynb notebook. To run the code successfully, follow these steps:
-1. Set the working directory and specify the .csv file with prompts and completions:
-```python
-new_directory = "<your_working_directory_path>" 
-os.chdir(new_directory)
-training_data = '<csv_filename>.csv'
 
-2. Provide your API key by reading it from a .txt file:
+1. Provide your API key by reading it from a .txt file:
 ```python
-config_filename = "<your_api_key>.txt"
+# Specify the filename for the API key configuration
+config_filename = "<api_key_file>.txt"
+
+# Check if the <api_key_file>.txt file exists in the current directory
+if os.path.isfile(config_filename):
+    with open(config_filename, 'r') as file:
+        api_key = file.readline().strip().split('=')[1]
+else:
+    # Use the default API key if the file doesn't exist
+    api_key = default_api_key
+
+openai.api_key = api_key
 ```
+
 Alternatively, you may directly assign your API key (if you prefer not to use a .txt file)
 ```python
-openai.api_key = "<your_api_key>"
+# Directly assign your API key if you prefer not to use a .txt file
+default_api_key = "<your_api_key>"
+```
+
+To use Langchain, we recommend having a .py file that contains the following line: APIKEY = 'Your_API_Key'
+```python
+import os
+import constants
+
+# To use Langchain, we recommend having a .py file that contains the following line: APIKEY = 'Your_API_Key'
+os.environ["OPENAI_API_KEY"] = constants.APIKEY
 ```
